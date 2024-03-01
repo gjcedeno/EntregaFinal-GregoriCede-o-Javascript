@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Recomendacion de Peliculas</title>
+  </head>
+  <body>
+    <main>
+      
+      <div class="titulo">
+        <h1>Recomendacion de Peliculas</h1>
+      </div>
+
+      <div class="container-btn">
+        <h2 id="feelings">¿Como te sientes hoy?</h2>
+
+        <article>
+          <button id="btn1" class="button" data-genres="35,10749">Feliz y Animado</button>
+          <button id="btn2" class="button" data-genres="35,16">Triste/Deprimido</button>
+        </article>
+
+        <article>
+          <button id="btn3" class="button" data-genres="28,12">Emocionado y Aventurero</button>
+          <button id="btn4" class="button" data-genres="35,18">Estresado y Necesito Desconexión</button>
+        </article>
+
+        <article>
+          <button id="btn5" class="button" data-genres="18,878,53">Reflexivo y Filosófico</button>
+          <button id="btn6" class="button" data-genres="27,9648">Asustado Buscando Suspenso</button>
+        </article>
+
+        <article>
+          <button id="btn7" class="button" data-genres="10749,18">Romántico y Soñador</button>
+          <button id="btn8" class="button" data-genres="878,14">Aburrido y Buscando Algo Nuevo</button>
+        </article>
+
+        
+
+        <div id="detailsMovie" class="movie-details">
+          <h2 id="movieTitle"></h2>
+          <img id="moviePoster" class="hidden" src="" alt="Movie Poster" />
+          <p id="movieOverview"></p>
+          <p id="movieReleaseDate"></p>
+        </div>
+
+        
+        <div id="containerBtn2">
+          <button id="btnBack" class="hidden">Atras</button>
+          <button id="btnNext" class="hidden">Siguiente Pelicula</button>
+        </div>
+
+        
+
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
